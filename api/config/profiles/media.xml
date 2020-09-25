@@ -1,0 +1,129 @@
+
+<media xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_EVRCB_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_EVRC_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G711A_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G711U_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G711U_2833_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G722_64_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G722_64_2833_20ms</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>CC_G729AB_20ms_2833</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G711-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G711SS-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G723-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G723A-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G726-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G729A-DEFAULT</name>
+  </codecEntry>
+  <codecEntry xmlns="http://sonusnet.com/ns/mibs/SONUS-CODEC-ENTRY/1.0">
+    <name>G729AB-DEFAULT</name>
+  </codecEntry>
+  <announcementPackage xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-ANNOUNCEMENT/1.0">
+    <name>DEFAULT</name>
+  </announcementPackage>
+  <tonePackage xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>DEFAULT</name>
+  </tonePackage>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defBusy</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defDial</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defRing</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defSit1</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defSit2</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defSit3</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>fccBusy</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>fccDial</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defReorder</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>fccRingback</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defCpeAlerting</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defCallWaiting1</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defCallWaiting2</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defCallWaiting3</name>
+  </toneProfile>
+  <toneProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-TONE/1.0">
+    <name>defCallWaiting4</name>
+  </toneProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>DEFAULT</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_CORE1</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_711U</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_711U_2833</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_711_729_2833</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_722</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_729_2833</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_EVRC2833</name>
+  </packetServiceProfile>
+  <packetServiceProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-PACKET-SERVICE-PROFILE/1.0">
+    <name>PSP_PEER_EVRC_2833</name>
+  </packetServiceProfile>
+  <toneAndAnnouncementProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-TONE-AND-ANNC-PROFILE/1.0">
+    <name>EXAMPLE</name>
+  </toneAndAnnouncementProfile>
+</media>

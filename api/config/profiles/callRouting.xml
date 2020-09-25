@@ -1,0 +1,18 @@
+
+<callRouting xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+  <elementRoutingPriority xmlns="http://sonusnet.com/ns/mibs/SONUS-ELEMENT-ROUTING-PRIORITY/1.0">
+    <name>DEFAULT_IP</name>
+  </elementRoutingPriority>
+  <crankbackProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-CRANKBACK/1.0">
+    <name>default</name>
+  </crankbackProfile>
+  <crankbackProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-CRANKBACK/1.0">
+    <name>CC_WO_CP1</name>
+  </crankbackProfile>
+  <crankbackProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-CRANKBACK/1.0">
+    <name>CC_NOCRANK_WT_CP1</name>
+  </crankbackProfile>
+  <timeRangeProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-TIME-RANGE-PROFILE/1.0">
+    <name>ALL</name>
+  </timeRangeProfile>
+</callRouting>

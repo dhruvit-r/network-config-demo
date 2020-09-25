@@ -1,6 +1,6 @@
 <collection xmlns:y="http://tail-f.com/ns/rest">
   <addressContext xmlns="http://sonusnet.com/ns/mibs/SONUS-ADDRESS-CONTEXT/1.0">
-    <name>default</name>
+    <name>default-2</name>
     <cmds xmlns="http://sonusnet.com/ns/mibs/SONUS-ADDRESS-CONTEXT/1.0">
       <y:operations>
         <optionsPing>/api/config/addressContext/default/cmds/_operations/optionsPing</optionsPing>

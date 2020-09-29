@@ -1,0 +1,284 @@
+
+<signaling xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+<sipCauseCodeMapping>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>CC_CPC2SIPWT1</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultCpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultQ1912CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultRFC3398CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultTs29163CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWO1</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT1</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultSipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_JA</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_GCS</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultQ1912SipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_Bypass</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultRFC3398SipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultTs29163SipCpc</name>
+  </sipToCpcCauseMapProfile>
+</sipCauseCodeMapping>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_GLOB_IPSP1</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_GLOB_IPSP2</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_GLOB_PEER</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_UNGLOB_IPSP1</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_UNGLOB_REDIR_GCS</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>CC_UNGLOB_SRP_JA</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>DEFAULT_H323</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>DEFAULT_SIP</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>DFL_PCSCF_CORE_TG_PROF</name>
+</ipSignalingProfile>
+<ipSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-IP-SIGNALING-PROFILE/1.0">
+  <name>DFL_PCSCF_UE_TG_PROF</name>
+</ipSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>gr317</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>ttc87</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>ansi00</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>ansi88</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>ttc93+</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>etsi121</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>etsi356</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>itu-t88</name>
+</isupSignalingProfile>
+<isupSignalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-ISUP-SIGNALING-PROFILE/1.0">
+  <name>itu-t92+</name>
+</isupSignalingProfile>
+<numberGlobalizationProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-NUMBER-GLOBALIZATION-PROFILE/1.0">
+  <name>DEFAULT_IP</name>
+</numberGlobalizationProfile>
+<sctpProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SCTP/1.0">
+  <name>defaultSctpProfile</name>
+</sctpProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>DEFAULT_IP_PROFILE</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ANSI00</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ANSI88</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ETSI121</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ETSI356</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_GR317</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ITU_T88</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_ITU_T92_PLUS</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_TTC87</name>
+</signalingProfile>
+<signalingProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIGNALING-PROFILE/1.0">
+  <name>SIGPROFILE_TTC93_PLUS</name>
+</signalingProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>test</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>JA_IN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>Test1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>Test3</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>GCS_IN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>LD_OUT</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_IN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>test_1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>AddX183</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>LD_OUT2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>PEER_IN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>EXFO_OUT</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>ChangeX183</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT_JA</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>IMS_OUT.1.0</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>IMS_OUT.1.1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>PEER_SIP_IN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT_JA2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>MGCF_OUT.1.0</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>MGCF_OUT.1.1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>MGCF_OUT.1.2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_PGTI</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>BillChange183</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_IMPACT</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_LEVEL3</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>remove_warning</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT_GCS.1.0</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT_GCS.1.1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>SRP_OUT_SIPPEER</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_O1ONNET</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_SECURUS</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>ADD_ORGANIZATION</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_BANDWIDTH</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_AATELECOM2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_INTELEPEER</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>PEERSBC_OUT_GCS.1.0</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>PEERSBC_OUT_GCS.1.1</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_BRIGHTHOUSE</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_IB_INTELEPEER2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>whls_cablevision_ILD</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_INBOUND_ASTERISK</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_INBOUND_WIDEOPEN</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_INBOUND_AATELECOM</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_INBOUND_WIDEOPEN2</name>
+</sipAdaptorProfile>
+<sipAdaptorProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-ADAPTOR/1.0">
+  <name>WHLS_INBOUND_AATELECOM2</name>
+</sipAdaptorProfile>
+<sipFilterProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-FILTER/1.0">
+  <name>default</name>
+</sipFilterProfile>
+<XHeaderProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-X-HEADER-PROFILE/1.0">
+  <name>XHeaderDefault</name>
+</XHeaderProfile>
+</signaling>

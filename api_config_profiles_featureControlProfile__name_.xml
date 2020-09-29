@@ -1,0 +1,13 @@
+
+<featureControlProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-FEATURE-CONTROL-PROFILE/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:FEATURE_CONTROL_PROFILE="http://sonusnet.com/ns/mibs/SONUS-FEATURE-CONTROL-PROFILE/1.0"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+  <name>DEFAULT_IP</name>
+  <processDestinationTgrp>disable</processDestinationTgrp>
+  <processDestinationTrunkContext>disable</processDestinationTrunkContext>
+  <processEnumdi>disable</processEnumdi>
+  <doNotValidateGAP>disable</doNotValidateGAP>
+  <ipProtocolFlags>
+    <useIpProtocol>disable</useIpProtocol>
+    <defaultCalledUser>disable</defaultCalledUser>
+    <honorPhoneContextParameter>disable</honorPhoneContextParameter>
+  </ipProtocolFlags>
+</featureControlProfile>

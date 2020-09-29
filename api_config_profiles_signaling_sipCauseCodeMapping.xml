@@ -1,0 +1,45 @@
+
+<sipCauseCodeMapping xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>CC_CPC2SIPWT1</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultCpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultQ1912CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultRFC3398CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <cpcToSipCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-CPC-TO-SIP-CAUSE-MAP/1.0">
+    <name>defaultTs29163CpcSip</name>
+  </cpcToSipCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWO1</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT1</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultSipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_JA</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_GCS</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultQ1912SipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>CC_SIP2CPCWT_Bypass</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultRFC3398SipCpc</name>
+  </sipToCpcCauseMapProfile>
+  <sipToCpcCauseMapProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SIP-SIGNALING-SIP-TO-CPC-CAUSE-MAP/1.0">
+    <name>defaultTs29163SipCpc</name>
+  </sipToCpcCauseMapProfile>
+</sipCauseCodeMapping>

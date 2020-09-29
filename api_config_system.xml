@@ -1,0 +1,405 @@
+
+<system xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-MIB/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:SYS="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-MIB/1.0">
+  <admin>
+    <name>ncst-sandbox-sbc13</name>
+  </admin>
+  <serverAdmin>
+    <name>ncst-sandbox-sbc13a</name>
+  </serverAdmin>
+  <serverAdmin>
+    <name>ncst-sandbox-sbc13b</name>
+  </serverAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <slot>1</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <slot>2</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <slot>3</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <slot>4</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <slot>1</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <slot>2</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <slot>3</slot>
+  </daughterBoardAdmin>
+  <daughterBoardAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <slot>4</slot>
+  </daughterBoardAdmin>
+  <resetLicenseStats>
+    <y:operations>
+      <removelicenseRequiredStatusEntry>/api/config/system/resetLicenseStats/_operations/removelicenseRequiredStatusEntry</removelicenseRequiredStatusEntry>
+      <resetLicenseServerStats>/api/config/system/resetLicenseStats/_operations/resetLicenseServerStats</resetLicenseServerStats>
+      <resetLicenseFeatureStats>/api/config/system/resetLicenseStats/_operations/resetLicenseFeatureStats</resetLicenseFeatureStats>
+    </y:operations>
+  </resetLicenseStats>
+  <mediaProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-DRM-MEDIA-PROFILE/1.0">
+    <compression>100</compression>
+    <tone>0</tone>
+  </mediaProfile>
+  <dspPad xmlns="http://sonusnet.com/ns/mibs/SONUS-DRM-RESOURCE/1.0">
+    <jitterEvalPeriod>1000</jitterEvalPeriod>
+    <jitterMinOccThsh>20</jitterMinOccThsh>
+    <rtpDtmfRelay>100</rtpDtmfRelay>
+    <sidMinTime>200</sidMinTime>
+    <sidMaxTime>2000</sidMaxTime>
+    <sidHangoverTime>300</sidHangoverTime>
+    <sidMinNoiseFloor>60</sidMinNoiseFloor>
+    <sidMaxNoiseFloor>48</sidMaxNoiseFloor>
+    <comfortEnergy>56</comfortEnergy>
+    <universalCompressionThreshold>90</universalCompressionThreshold>
+    <universalCompressionThresholdState>enabled</universalCompressionThresholdState>
+    <playoutTimeseriesPeriod>20000</playoutTimeseriesPeriod>
+    <playoutTimeseriesThreshold0>0</playoutTimeseriesThreshold0>
+    <playoutTimeseriesThreshold1>200</playoutTimeseriesThreshold1>
+    <playoutTimeseriesThreshold2>600</playoutTimeseriesThreshold2>
+    <toneThreshold>90</toneThreshold>
+    <toneThresholdState>enabled</toneThresholdState>
+    <audioTxDuring2833>enabled</audioTxDuring2833>
+  </dspPad>
+  <ipPolicing xmlns="http://sonusnet.com/ns/mibs/SONUS-GEN2-IPM/1.0">
+    <y:operations>
+      <resetOffendersList>/api/config/system/IPM:ipPolicing/_operations/resetOffendersList</resetOffendersList>
+    </y:operations>
+  </ipPolicing>
+  <ntp xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+    <timeZone>
+      <name>ncst-sandbox-sbc13</name>
+    </timeZone>
+    <serverAdmin>
+      <ipAddress>68.87.31.7</ipAddress>
+    </serverAdmin>
+    <serverAdmin>
+      <ipAddress>68.87.66.58</ipAddress>
+    </serverAdmin>
+  </ntp>
+  <security xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <certExpiryCheck>
+    <certReCheckRate>disable</certReCheckRate>
+    <expiryWarningThreshold>disable</expiryWarningThreshold>
+    <expirationPeriodicWarning>disable</expirationPeriodicWarning>
+  </certExpiryCheck>
+  <pki>
+    <certificate>
+      <name>defaultSBCCert</name>
+    </certificate>
+    <y:operations>
+      <uploadCertificate>/api/config/system/security/pki/_operations/uploadCertificate</uploadCertificate>
+    </y:operations>
+  </pki>
+  <y:operations>
+    <generateSipHeaderEncryptionKeys>/api/config/system/security/_operations/generateSipHeaderEncryptionKeys</generateSipHeaderEncryptionKeys>
+  </y:operations>
+</security>
+<mgmtIpInterfaceGroup xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>mgmtGroup</name>
+</mgmtIpInterfaceGroup>
+<mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <destinationIpAddress>0.0.0.0</destinationIpAddress>
+  <prefix>0</prefix>
+  <nextHop>172.30.151.193</nextHop>
+  <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+  <ipInterfaceName>mgmtIntf1</ipInterfaceName>
+</mgmtStaticRoute>
+<mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <destinationIpAddress>0.0.0.0</destinationIpAddress>
+  <prefix>0</prefix>
+  <nextHop>172.30.151.193</nextHop>
+  <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+  <ipInterfaceName>mgmtIntf2</ipInterfaceName>
+</mgmtStaticRoute>
+<mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <destinationIpAddress>0.0.0.0</destinationIpAddress>
+  <prefix>0</prefix>
+  <nextHop>172.30.151.193</nextHop>
+  <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+  <ipInterfaceName>mgmtIntf3</ipInterfaceName>
+</mgmtStaticRoute>
+<mgmtStaticRoute xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <destinationIpAddress>0.0.0.0</destinationIpAddress>
+  <prefix>0</prefix>
+  <nextHop>172.30.151.193</nextHop>
+  <ipInterfaceGroupName>mgmtGroup</ipInterfaceGroupName>
+  <ipInterfaceName>mgmtIntf4</ipInterfaceName>
+</mgmtStaticRoute>
+<logicalMgmtIpInterface xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>MGMT_LOGICAL</name>
+</logicalMgmtIpInterface>
+<ethernetPort xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>pkt0</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>pkt1</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>pkt2</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>pkt3</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>pkt0</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>pkt1</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>pkt2</portName>
+  </packetAdmin>
+  <packetAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>pkt3</portName>
+  </packetAdmin>
+  <mgmtAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>mgt0</portName>
+  </mgmtAdmin>
+  <mgmtAdmin>
+    <ceName>ncst-sandbox-sbc13a</ceName>
+    <portName>mgt1</portName>
+  </mgmtAdmin>
+  <mgmtAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>mgt0</portName>
+  </mgmtAdmin>
+  <mgmtAdmin>
+    <ceName>ncst-sandbox-sbc13b</ceName>
+    <portName>mgt1</portName>
+  </mgmtAdmin>
+</ethernetPort>
+<congestion xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0"/>
+<intervalStatistics xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <timeInterval>5</timeInterval>
+  <numOfPastIntervals>4</numOfPastIntervals>
+  <maxFileRetentionPeriod>60</maxFileRetentionPeriod>
+  <nodeId>10046</nodeId>
+  <callCountTimeInterval>5</callCountTimeInterval>
+</intervalStatistics>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpAclRuleStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>LinkMonitorStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipRegCountStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipSubCountStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>CallIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpAclOverallStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SBX5KDtlsSrtpStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipSigPortTlsStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpGeneralGroupStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>TrafficControlStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>TcpGeneralGroupStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>UdpGeneralGroupStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>CallFailIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>EthernetPortMgmtStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IcmpGeneralGroupStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>MtrmConnPortPeerStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>NBS5200CallCountStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SysCpuUtilIntStatsSts</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>DnsGroupDnsServerStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SystemLicenseInfoStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>EthernetPortPacketStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>LinkDetectionGroupStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>RelayIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingSystemIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SharedCacFailureIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SysMemoryUtilIntStatsSts</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipSigConnStatisticsStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SipSigPortStatisticsStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>serviceAuthorisedIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>DspResDspCallIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>H323SigPortStatisticsStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>CallCountIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>DspResDspUsageIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SharedCacIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>ZoneIntervalStatisticsStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>DiamNodeRfIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingRogueMediaIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>NBS5200TrunkGroupStatusStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>sipOcsCallIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>SystemCongestionIntervalStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingMediaOffendersIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>sipByeResponseIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingAclOffendersListIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingArpOffendersListIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>sipInviteResponseIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>sipOptionResponseIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingAggregateOffendersIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicinguFlowOffendersListIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>sipRegisterResponseIntervalStatistics</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingDiscardRuleOffendersIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingIpSecDecryptOffendersIntStats</name>
+</fileStatisticsAdmin>
+<fileStatisticsAdmin xmlns="http://sonusnet.com/ns/mibs/SONUS-ORCA-SYSTEM/1.0">
+  <name>IpPolicingBadEtherIpHdrOffendersIntStats</name>
+</fileStatisticsAdmin>
+<policyServer xmlns="http://sonusnet.com/ns/mibs/SONUS-POLICY-SERVER/1.0">
+  <globalConfig/>
+  <localServer>
+    <name>PSX_LOCAL_SERVER</name>
+  </localServer>
+</policyServer>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>default</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_msbc_profile</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_callmix_profile</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_signaling_profile</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_passthrough_profile</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_transcoding_profile</name>
+</sweTrafficProfiles>
+<sweTrafficProfiles xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>standard_highcps_callmix_profile</name>
+</sweTrafficProfiles>
+<sweCodecMixProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <codecMixProfileName>G711_20ms</codecMixProfileName>
+  <codec>g711</codec>
+  <ptime>p20</ptime>
+</sweCodecMixProfile>
+<sweCodecMixProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <codecMixProfileName>G711_G729_20ms</codecMixProfileName>
+  <codec>g711</codec>
+  <ptime>p20</ptime>
+</sweCodecMixProfile>
+<sweCodecMixProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <codecMixProfileName>G711_G729_20ms</codecMixProfileName>
+  <codec>g729</codec>
+  <ptime>p20</ptime>
+</sweCodecMixProfile>
+<sweActiveProfile xmlns="http://sonusnet.com/ns/mibs/SONUS-SYSTEM-SWE-MIB/1.0">
+  <name>default</name>
+</sweActiveProfile>
+</system>

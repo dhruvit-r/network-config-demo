@@ -1,0 +1,202 @@
+[
+  {
+    "name": "v6.0",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v6.0",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v6.0",
+    "commit": {
+      "sha": "459aa12250f81e5e80e3efbf5497969e9818a2e3",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/459aa12250f81e5e80e3efbf5497969e9818a2e3"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djYuMA=="
+  },
+  {
+    "name": "v5.0.3",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v5.0.3",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v5.0.3",
+    "commit": {
+      "sha": "8dde4b94ffad009b686441abe55d457900a4cc75",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/8dde4b94ffad009b686441abe55d457900a4cc75"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djUuMC4z"
+  },
+  {
+    "name": "v5.0.2",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v5.0.2",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v5.0.2",
+    "commit": {
+      "sha": "8f728edfb673fa3a15c17d8cf29fbb118607971c",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/8f728edfb673fa3a15c17d8cf29fbb118607971c"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djUuMC4y"
+  },
+  {
+    "name": "v5.0.1",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v5.0.1",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v5.0.1",
+    "commit": {
+      "sha": "4f91e2424182e2de84d725d0d94a78bb49d5971d",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/4f91e2424182e2de84d725d0d94a78bb49d5971d"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djUuMC4x"
+  },
+  {
+    "name": "v5.0",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v5.0",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v5.0",
+    "commit": {
+      "sha": "01ee83f88b534eecdd2f568cd96b749d4fbc845d",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/01ee83f88b534eecdd2f568cd96b749d4fbc845d"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djUuMA=="
+  },
+  {
+    "name": "v4.0.5",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0.5",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0.5",
+    "commit": {
+      "sha": "51caa0141e04a9a99627464735137aceb70a6eaf",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/51caa0141e04a9a99627464735137aceb70a6eaf"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMC41"
+  },
+  {
+    "name": "v4.0.4",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0.4",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0.4",
+    "commit": {
+      "sha": "96f0804ead354e0c9ea0ebfd08ffc7116565b79c",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/96f0804ead354e0c9ea0ebfd08ffc7116565b79c"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMC40"
+  },
+  {
+    "name": "v4.0.3",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0.3",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0.3",
+    "commit": {
+      "sha": "0c53c4effb6a7c89525afc899abba1542a376b6f",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/0c53c4effb6a7c89525afc899abba1542a376b6f"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMC4z"
+  },
+  {
+    "name": "v4.0.2",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0.2",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0.2",
+    "commit": {
+      "sha": "06ab4f174ef8453a3552911344106c60e414a805",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/06ab4f174ef8453a3552911344106c60e414a805"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMC4y"
+  },
+  {
+    "name": "v4.0.1",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0.1",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0.1",
+    "commit": {
+      "sha": "9d07cb6f9eb0482eb275a6a7bd0e663dded81dff",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/9d07cb6f9eb0482eb275a6a7bd0e663dded81dff"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMC4x"
+  },
+  {
+    "name": "v4.0",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v4.0",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v4.0",
+    "commit": {
+      "sha": "8bf58ee63bcf02eec678a086e4cc9da547f3192a",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/8bf58ee63bcf02eec678a086e4cc9da547f3192a"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djQuMA=="
+  },
+  {
+    "name": "v3.0.1",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v3.0.1",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v3.0.1",
+    "commit": {
+      "sha": "263e4ea50288467bb604ada2c585e52f92bd0420",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/263e4ea50288467bb604ada2c585e52f92bd0420"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djMuMC4x"
+  },
+  {
+    "name": "v3.0",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v3.0",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v3.0",
+    "commit": {
+      "sha": "2e4b421502cf514dd035b30d8fd70077c606126d",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/2e4b421502cf514dd035b30d8fd70077c606126d"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djMuMA=="
+  },
+  {
+    "name": "v2.2",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v2.2",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v2.2",
+    "commit": {
+      "sha": "fc6dd6f3714926e42ffe39e819ef81a4530657a4",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/fc6dd6f3714926e42ffe39e819ef81a4530657a4"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djIuMg=="
+  },
+  {
+    "name": "v2.1",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v2.1",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v2.1",
+    "commit": {
+      "sha": "b78353ba27af9e8efdbc0195070f9df96098cb39",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/b78353ba27af9e8efdbc0195070f9df96098cb39"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djIuMQ=="
+  },
+  {
+    "name": "v2.0",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v2.0",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v2.0",
+    "commit": {
+      "sha": "9217dd78db8225c868e7535251aba8866e6412d1",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/9217dd78db8225c868e7535251aba8866e6412d1"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djIuMA=="
+  },
+  {
+    "name": "v1.0.4",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v1.0.4",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v1.0.4",
+    "commit": {
+      "sha": "fc582f90f33fafb3b12287994dcfd8461733ab1b",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/fc582f90f33fafb3b12287994dcfd8461733ab1b"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djEuMC40"
+  },
+  {
+    "name": "v1.0.3",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v1.0.3",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v1.0.3",
+    "commit": {
+      "sha": "deb6b4936391f6cedb2f0d7e583078a5f02d982f",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/deb6b4936391f6cedb2f0d7e583078a5f02d982f"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djEuMC4z"
+  },
+  {
+    "name": "v1.0.2",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v1.0.2",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v1.0.2",
+    "commit": {
+      "sha": "af548a07fd171332c02dfb5d8877444b86651fc0",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/af548a07fd171332c02dfb5d8877444b86651fc0"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djEuMC4y"
+  },
+  {
+    "name": "v1.0.1",
+    "zipball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/zipball/v1.0.1",
+    "tarball_url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/tarball/v1.0.1",
+    "commit": {
+      "sha": "ff083fb686335f716556ca099a51eff802cadcf9",
+      "url": "https://github.comcast.com/api/v3/repos/NextVM/RVMConfig/commits/ff083fb686335f716556ca099a51eff802cadcf9"
+    },
+    "node_id": "MDM6UmVmODIwNjY6djEuMC4x"
+  }
+]

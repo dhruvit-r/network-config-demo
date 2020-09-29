@@ -1,0 +1,4 @@
+
+<dtmfTrigger xmlns="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-DTMFTRIGGER/1.0" xmlns:y="http://tail-f.com/ns/rest"  xmlns:NRM_DTMFTRIGGER="http://sonusnet.com/ns/mibs/SONUS-NODE-RESOURCES-DTMFTRIGGER/1.0"  xmlns:PROFILES="http://sonusnet.com/ns/mibs/SONUS-GEN2-PROFILES-MIB/1.0">
+  <name>egress</name>
+</dtmfTrigger>
